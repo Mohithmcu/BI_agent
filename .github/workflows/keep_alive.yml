@@ -2,8 +2,8 @@ name: Streamlit Keep Alive
 
 on:
   schedule:
-    # Run every 30 minutes to ensure it never sleeps
-    - cron: '*/30 * * * *'
+    # Run every 3 hours to ensure it never sleeps
+    - cron: '0 */3 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
